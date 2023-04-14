@@ -1,0 +1,26 @@
+.contenedor {
+    border: 1rem solid #fff;
+    width: 13.8rem;
+    height: 13.8rem;
+
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: row;
+
+    gap: 20px;
+
+    background-color: green;
+}
+
+.items {
+    background-color: #fa0b0b;
+    font-size: 2rem;
+
+    display: grid;
+    align-items: end;
+    justify-content: flex-end;
+
+    width: 100px;
+    height: 100px;
+}

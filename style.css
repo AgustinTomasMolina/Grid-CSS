@@ -1,0 +1,48 @@
+.conteiner {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-columns: 100px;
+    grid-auto-flow:column;
+    
+    gap:20px;
+    
+}
+
+.item {
+    background-color: green;
+    font-size: 2rem;
+
+    display: grid;
+    justify-content: end;
+    align-items: end;
+
+    width: 100px;
+    height: 100px;
+}
+
+.item:nth-child(2),
+.item:nth-child(5) {
+    background-color: #419f00;
+}
+
+
+.item:nth-child(3),
+.item:nth-child(6) {
+    background-color: #419f20;
+}
+
+span {
+    color: white;
+    background-color: #cb24e9;
+
+    width: 2rem;
+
+    display: grid;
+    justify-content: center;
+
+}
+
+
